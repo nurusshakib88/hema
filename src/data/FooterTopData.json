@@ -1,0 +1,224 @@
+{
+  "footerTop": {
+    "categories": [
+      {
+        "name": "baby",
+        "items": [
+          { "label": "baby kleding", "link": "/baby-kleding" },
+          { "label": "rompertjes", "link": "/rompertjes" },
+          { "label": "boxpakjes", "link": "/boxpakjes" },
+          { "label": "slaapzakken voor baby's", "link": "/slaapzakken" },
+          { "label": "baby pyjama's", "link": "/baby-pyjamas" },
+          { "label": "newborn kleding", "link": "/newborn-kleding" },
+          { "label": "hydrofiele doeken", "link": "/hydrofiele-doeken" }
+        ]
+      },
+      {
+        "name": "kind",
+        "items": [
+          { "label": "kinderkleding", "link": "/kind-kleding" },
+          { "label": "meisjeskleding", "link": "/meisjes-kleding" },
+          { "label": "meisjesondergoed", "link": "/meisjes-ondergoed" },
+          { "label": "meisjespyjama's", "link": "/meisjes-pyjamas" },
+          { "label": "jongenskleding", "link": "/jongens-kleding" },
+          { "label": "jongensondergoed", "link": "/jongens-ondergoed" },
+          { "label": "jongenspyjama's", "link": "/jongens-pyjamas" }
+        ]
+      },
+      {
+        "name": "dames",
+        "items": [
+          { "label": "dameskleding", "link": "/dames-kleding" },
+          {
+            "label": "shirts en tops voor dames",
+            "link": "/shirts-tops-dames"
+          },
+          { "label": "lingerie", "link": "/lingerie" },
+          { "label": "bh's", "link": "/bhs" },
+          { "label": "panty's", "link": "/pantys" },
+          { "label": "pyjama's voor dames", "link": "/pyjamas-dames" },
+          { "label": "hemden voor dames", "link": "/hemden-dames" }
+        ]
+      },
+      {
+        "name": "heren",
+        "items": [
+          { "label": "herenkleding", "link": "/heren-kleding" },
+          { "label": "herensokken", "link": "/heren-sokken" },
+          { "label": "herenpyjama's", "link": "/heren-pyjamas" },
+          { "label": "t-shirts voor heren", "link": "/tshirts-heren" },
+          { "label": "ondergoed voor heren", "link": "/ondergoed-heren" },
+          { "label": "boxershorts voor heren", "link": "/boxershorts-heren" },
+          { "label": "hemden voor heren", "link": "/hemden-heren" }
+        ]
+      },
+      {
+        "name": "wonen en slapen",
+        "items": [
+          { "label": "dekbedovertrekken", "link": "/dekbedovertrekken" },
+          { "label": "hoeslakens", "link": "/hoeslakens" },
+          { "label": "gordijnen op maat", "link": "/gordijnen" },
+          { "label": "tuinartikelen", "link": "/tuinartikelen" },
+          { "label": "opbergers", "link": "/opbergers" },
+          { "label": "woonaccessoires", "link": "/woonaccessoires" },
+          { "label": "kaarsen", "link": "/kaarsen" }
+        ]
+      },
+      {
+        "name": "taart, eten en drinken",
+        "items": [
+          { "label": "gebak", "link": "/gebak" },
+          { "label": "taart", "link": "/taart" },
+          { "label": "fototaart", "link": "/fototaart" },
+          { "label": "traktaties", "link": "/traktaties" },
+          { "label": "koffie", "link": "/koffie" },
+          { "label": "wijn", "link": "/wijn" },
+          { "label": "bier", "link": "/bier" }
+        ]
+      },
+      {
+        "name": "vrije tijd en kantoor",
+        "items": [
+          { "label": "schoolspullen", "link": "/schoolspullen" },
+          { "label": "agenda's", "link": "/agenda" },
+          { "label": "kalenders", "link": "/kalenders" },
+          { "label": "planners", "link": "/planners" },
+          { "label": "notitieboekjes", "link": "/notitieboekjes" },
+          { "label": "knutselspullen", "link": "/knutselspullen" },
+          { "label": "fotoalbums", "link": "/fotoalbums" }
+        ]
+      },
+      {
+        "name": "koken en tafelen",
+        "items": [
+          { "label": "servies", "link": "/servies" },
+          { "label": "bestek", "link": "/bestek" },
+          { "label": "theedoeken", "link": "/theedoeken" },
+          { "label": "keukenapparaten", "link": "/keukenapparaten" },
+          { "label": "pannen", "link": "/pannen" },
+          { "label": "ovenschalen", "link": "/ovenschalen" },
+          { "label": "bakvormen", "link": "/bakvormen" }
+        ]
+      },
+      {
+        "name": "feest en cadeau",
+        "items": [
+          { "label": "feestartikelen", "link": "/feestartikelen" },
+          { "label": "feestversiering", "link": "/feestversiering" },
+          { "label": "uitdeelcadeautjes", "link": "/uitdeelcadeautjes" },
+          { "label": "cadeaus", "link": "/cadeaus" },
+          { "label": "cadeau voor haar", "link": "/cadeau-voor-haar" },
+          { "label": "cadeau voor hem", "link": "/cadeau-voor-hem" },
+          { "label": "speelgoed", "link": "/speelgoed" }
+        ]
+      },
+      {
+        "name": "mooi en gezond",
+        "items": [
+          { "label": "make up", "link": "/make-up" },
+          { "label": "foundation", "link": "/foundation" },
+          { "label": "mascara", "link": "/mascara" },
+          { "label": "kruiken", "link": "/kruiken" },
+          { "label": "zonnebrand", "link": "/zonnebrand" },
+          { "label": "vitaminen", "link": "/vitaminen" },
+          { "label": "intimiteit", "link": "/intimiteit" }
+        ]
+      },
+      {
+        "name": "speelgoed",
+        "items": [
+          { "label": "kinderspeelgoed", "link": "/kinderspeelgoed" },
+          { "label": "babyspeelgoed", "link": "/babyspeelgoed" },
+          { "label": "educatief speelgoed", "link": "/educatief-speelgoed" },
+          { "label": "houten speelgoed", "link": "/houten-speelgoed" },
+          { "label": "buitenspeelgoed", "link": "/buitenspeelgoed" },
+          { "label": "badspeelgoed", "link": "/badspeelgoed" },
+          { "label": "knuffels", "link": "/knuffels" }
+        ]
+      },
+      {
+        "name": "fotodiensten",
+        "items": [
+          { "label": "fotoboek maken", "link": "/fotoboek-maken" },
+          { "label": "foto's afdrukken", "link": "/fotos-afdrukken" },
+          { "label": "posters afdrukken", "link": "/posters-afdrukken" },
+          { "label": "fotocadeaus", "link": "/fotocadeaus" },
+          { "label": "wanddecoratie", "link": "/wanddecoratie" },
+          { "label": "foto op canvas", "link": "/foto-op-canvas" },
+          { "label": "t-shirt bedrukken", "link": "/tshirt-bedrukken" }
+        ]
+      }
+    ]
+  },
+
+  "footerBottom": {
+    "categories": [
+      {
+        "name": "populaire categorieën",
+        "items": [
+          { "label": "dameskleding", "link": "/dameskleding" },
+          { "label": "kinderkleding", "link": "/kinderkleding" },
+          { "label": "babykleding", "link": "/babykleding" },
+          { "label": "beddengoed", "link": "/beddengoed" },
+          { "label": "woonaccessoires", "link": "/woonaccessoires" },
+          { "label": "handdoeken", "link": "/handdoeken" },
+          { "label": "raamdecoratie", "link": "/raamdecoratie" },
+          { "label": "speelgoed", "link": "/speelgoed" },
+          { "label": "gebak", "link": "/gebak" },
+          { "label": "koffie", "link": "/koffie" }
+        ]
+      },
+      {
+        "name": "meer voor HEMA fans",
+        "items": [
+          { "label": "HEMA app", "link": "/hema-app" },
+          { "label": "HEMA pas", "link": "/hema-pas" },
+          { "label": "lees onze folders", "link": "/folders" },
+          {
+            "label": "folder via Whatsapp ontvangen",
+            "link": "/whatsapp-folder"
+          },
+          { "label": "HEMA op social media", "link": "/social-media" },
+          {
+            "label": "HEMA herontwerpwedstrijd",
+            "link": "/herontwerpwedstrijd"
+          },
+          { "label": "HEMA fotoservice", "link": "/fotoservice" },
+          { "label": "HEMA cadeaukaarten", "link": "/cadeaukaarten" },
+          { "label": "HEMA tickets", "link": "/tickets" },
+          { "label": "HEMA verzekeringen", "link": "/verzekeringen" },
+          { "label": "inspiratie", "link": "/inspiratie" },
+          { "label": "nieuws", "link": "/nieuws" }
+        ]
+      },
+      {
+        "name": "over HEMA",
+        "items": [
+          { "label": "over ons bedrijf", "link": "/over-ons" },
+          { "label": "werken bij HEMA", "link": "/werken-bij-hema" },
+          { "label": "goed idee van HEMA", "link": "/goed-idee" },
+          { "label": "nieuws en pers", "link": "/nieuws-en-pers" },
+          { "label": "HEMA geschiedenis", "link": "/geschiedenis" },
+          { "label": "HEMA zakelijk", "link": "/zakelijk" },
+          { "label": "klantenservice", "link": "/klantenservice" },
+          { "label": "actievoorwaarden", "link": "/actievoorwaarden" },
+          {
+            "label": "saldo cadeaukaart opvragen",
+            "link": "/cadeaukaart-saldo"
+          },
+          { "label": "partnerships", "link": "/partnerships" }
+        ]
+      },
+      {
+        "name": "internationaal",
+        "items": [
+          { "label": "HEMA België", "link": "/hema-belgie" },
+          { "label": "HEMA Duitsland", "link": "/hema-duitsland" },
+          { "label": "HEMA Frankrijk", "link": "/hema-frankrijk" },
+          { "label": "HEMA Oostenrijk", "link": "/hema-oostenrijk" },
+          { "label": "HEMA Verenigde Arabische Emiraten", "link": "/hema-vera" }
+        ]
+      }
+    ]
+  }
+}
