@@ -12,11 +12,16 @@ import bag from "../assets/navbar/bag.png";
 import { Drawer } from "flowbite-react";
 import { Input, InputAdornment, TextField } from "@mui/material";
 import Sidebar from "./Sidebar";
+import Topbar from "./Topbar";
 const Navbar = ({ className }) => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isCategoryHovered, setIsCategoryHovered] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const handleClose = () => setIsOpen(false);
+  const [isOpenTopbar, setIsOpenTopbar] = useState(false);
+  const handleClose = () => {
+    setIsOpen(false);
+    setIsOpenTopbar(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,8 +42,8 @@ const Navbar = ({ className }) => {
   return (
     <div
       className={`${
-        hasScrolled ? "sticky xl:pt-0 pt-10" : "relative xl:pt-10"
-      }  top-0 w-full transition-all duration-300 ease-in-out z-[9999] bg-white sticky`}
+        hasScrolled ? "fixed top-0 xl:pt-0" : "relative xl:pt-10"
+      }  top-0 w-full transition-all duration-300 ease-in-out z-[9999] bg-white fixed`}
     >
       <div
         className={`${
@@ -73,8 +78,12 @@ const Navbar = ({ className }) => {
       </div>
 
       <div className={`${className} bg-white xl:py-3`}>
-        <div className="md:h-[10vh] h-[16vh]  flex flex-wrap items-center justify-between gap-x-12 ">
-          <Link className="oreder-1">
+        <div
+          className={`${
+            hasScrolled && "h-[10vh]"
+          } md:h-[10vh] h-[16vh]  flex flex-wrap items-center justify-between gap-x-12 transition-all duration-300`}
+        >
+          <Link className="order-1">
             <img src={SiteLogo} alt="hema-logo" className="xl:w-14 w-12" />
           </Link>
           <div
@@ -87,9 +96,10 @@ const Navbar = ({ className }) => {
             <FaAngleDown className="text-xl" />
           </div>
           <form
+            onClick={() => setIsOpenTopbar(true)}
             className={`${
               hasScrolled && "md:flex hidden"
-            } md:order-3 order-5 md:w-auto sm:flex-1 w-full flex items-center bg-gray-200 rounded-full px-5 xl:py-3 py-1`}
+            } md:order-3 order-5 md:w-auto md:flex-1 w-full flex items-center bg-[#EFEFEF] hover:bg-[#DFDFDF] transition-all duration-300 rounded-full px-5 py-1`}
           >
             <input
               type="text"
@@ -99,7 +109,12 @@ const Navbar = ({ className }) => {
             <IoSearchOutline className="text-2xl" />
           </form>
           <div className="order-4 flex items-center md:gap-7 gap-4">
-            {hasScrolled && <IoSearchOutline className="text-2xl md:hidden" />}
+            {hasScrolled && (
+              <IoSearchOutline
+                onClick={() => setIsOpenTopbar(true)}
+                className="text-2xl mx-3 md:hidden cursor-pointer"
+              />
+            )}
             <Link
               className="flex items-center gap-3"
               onClick={() => setIsOpen(true)}
@@ -134,6 +149,7 @@ const Navbar = ({ className }) => {
       </div>
 
       <Sidebar open={isOpen} onClose={handleClose} />
+      <Topbar className={className} open={isOpenTopbar} onClose={handleClose} />
     </div>
   );
 };

@@ -11,14 +11,11 @@ import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
-    <div className="w-full ">
-      <ScrollToTop />
-      <Navbar className="xl:px-32 md:px-8 px-4" />
+    <div className="w-full">
       <CategorySlider className="xl:px-32 md:px-8 px-4" />
       <Discover className="xl:px-32 md:px-8 px-4" />
       <Sale className="xl:px-32 md:px-8 px-4" />
       <Living className="xl:px-32 md:px-8 px-4" />
-      <Footer className="xl:px-32 md:px-8 px-4" />
     </div>
   );
 };

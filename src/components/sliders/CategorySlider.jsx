@@ -85,7 +85,7 @@ function CategorySlider({ className }) {
       <Slider {...settings}>
         {categories.map((category, index) => (
           <div className="text-center" key={index}>
-            <div className="xl:w-36 lg:w-40 md:w-28 sm:w-40 w-24  mx-auto aspect-square overflow-hidden group rounded-full">
+            <div className="xl:w-32 lg:w-40 md:w-28 sm:w-40 w-24  mx-auto aspect-square overflow-hidden group rounded-full">
               <img
                 src={category.img}
                 alt={category.name}

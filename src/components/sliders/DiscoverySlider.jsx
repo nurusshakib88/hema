@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { discover } from "../../data/DiscoverData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function DiscoverySlider({ className }) {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -88,23 +89,42 @@ function DiscoverySlider({ className }) {
             className="relative group xl:px-4 lg:px-3 md:px-2 px-1"
             key={index}
           >
-            <div className="overflow-hidden rounded-xl">
-              <img
-                src={category.img}
-                alt={category.name}
-                className="mx-auto group-hover:scale-105 transition-all duration-500"
-              />
-            </div>
-
-            <div className="absolute top-0 left-0 mx-8 my-5 aspect-square text-white font-bold bg-[#EF2625] flex flex-col justify-center p-2 rounded-sm">
-              <h1 className="text-4xl leading-6">{category.type.value}</h1>
-              <p className="text-lg">{category.type.cat}</p>
-            </div>
-
-            <div className="py-4">
-              <h1 className="font-semibold">{category.name}</h1>
-              <p>geldig t/m {category.valid}</p>
-            </div>
+            {category.islast ? (
+              <div className="verflow-hidden rounded-xl bg-[#A51CF8]">
+                <img
+                  src={category.img}
+                  alt={category.name}
+                  className="mx-auto group-hover:scale-105 transition-all duration-500"
+                />
+                <Link
+                  to="/all"
+                  className="absolute top-0 bottom-0 left-0 right-0 flex flex-col justify-center items-center gap-3 text-white"
+                >
+                  <span className="text-xl hover:bg-white  hover:text-black transition-all duration-300 border-2 bg-tranparent w-16 h-16 rounded-full flex items-center justify-center">
+                    {category.icon}
+                  </span>
+                  <h1 className="font-bold">meer aanbiedlingen</h1>
+                </Link>
+              </div>
+            ) : (
+              <>
+                <div className="overflow-hidden rounded-xl">
+                  <img
+                    src={category.img}
+                    alt={category.name}
+                    className="mx-auto group-hover:scale-105 transition-all duration-500"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 mx-8 my-5 aspect-square text-white font-bold bg-[#EF2625] flex flex-col justify-center p-2 rounded-sm">
+                  <h1 className="text-4xl leading-6">{category.type.value}</h1>
+                  <p className="text-lg">{category.type.cat}</p>
+                </div>
+                <div className="py-4">
+                  <h1 className="font-semibold">{category.name}</h1>
+                  <p>geldig t/m {category.valid}</p>
+                </div>
+              </>
+            )}
           </div>
         ))}
       </Slider>
